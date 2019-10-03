@@ -1,0 +1,39 @@
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  justify-content: stretch;
+}
+
+ .Forms-body {
+  padding-left: 16px;
+  padding-right: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding-top: 40px; 
+
+} 
+.adscard { 
+  border-radius: 4px;
+  background-color: #FCFCFC;
+  margin-Top: 8px; 
+
+}
+.adscard:hover {
+  background-color: #ECF3FF;
+  cursor: pointer;
+}
+
+.adscard-selected {
+  background-color: #ECF3FF;
+}
+
+.selected {
+  background-color: lightblue
+  
+}
+
+
