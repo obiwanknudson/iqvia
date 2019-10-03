@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd528107a0bb7e02e272dbfdf1dc9e71",
+    "revision": "298c6c1b2ec2a0fe58c44218840f7578",
     "url": "/iqvia/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iqvia/static/css/2.41c6c5b7.chunk.css"
   },
   {
-    "revision": "1456532929027842fa4b",
+    "revision": "5cb2cf144a9f6fd987bd",
     "url": "/iqvia/static/css/main.cf629934.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iqvia/static/js/2.bfae2c59.chunk.js"
   },
   {
-    "revision": "1456532929027842fa4b",
-    "url": "/iqvia/static/js/main.e795fa82.chunk.js"
+    "revision": "5cb2cf144a9f6fd987bd",
+    "url": "/iqvia/static/js/main.2057ce88.chunk.js"
   },
   {
     "revision": "02bd36eb3f608552e58e",

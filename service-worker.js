@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/iqvia/precache-manifest.0dc67b205f3a63340db8e38ef5996fae.js"
+  "/iqvia/precache-manifest.d7ef86fb5391e9e002d088cdbc56b93d.js"
 );
 
 self.addEventListener('message', (event) => {
