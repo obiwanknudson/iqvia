@@ -16,29 +16,29 @@ const navClick = () => {
 const logoProps = {
   src: logo,
   alt: 'Apollo',
-  href: '/AppDash',
+  href: './AppDash',
   onClick: navClick,
 };
 
 const menuItems = [
   {
     text: 'Dashboard',
-    href: '/AppDash',
+    href: './AppDash',
     onClick: navClick,
   },
   {
     text: 'Forms',
-    href: '/Forms',
+    href: './Forms',
     onClick: navClick,
   },
   {
     text: 'Records',
-    href: '/RecordsTab',
+    href: './RecordsTab',
     onClick: navClick,
   },
   {
     text: 'Reports',
-    href: '/Forms2',
+    href: './Forms2',
     onClick: navClick,
   },
   
