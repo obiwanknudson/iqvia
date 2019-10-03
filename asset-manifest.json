@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/iqvia/static/css/main.cf629934.chunk.css",
+    "main.js": "/iqvia/static/js/main.e795fa82.chunk.js",
+    "main.js.map": "/iqvia/static/js/main.e795fa82.chunk.js.map",
+    "runtime~main.js": "/iqvia/static/js/runtime~main.6762d817.js",
+    "runtime~main.js.map": "/iqvia/static/js/runtime~main.6762d817.js.map",
+    "static/css/2.41c6c5b7.chunk.css": "/iqvia/static/css/2.41c6c5b7.chunk.css",
+    "static/js/2.bfae2c59.chunk.js": "/iqvia/static/js/2.bfae2c59.chunk.js",
+    "static/js/2.bfae2c59.chunk.js.map": "/iqvia/static/js/2.bfae2c59.chunk.js.map",
+    "index.html": "/iqvia/index.html",
+    "precache-manifest.0dc67b205f3a63340db8e38ef5996fae.js": "/iqvia/precache-manifest.0dc67b205f3a63340db8e38ef5996fae.js",
+    "service-worker.js": "/iqvia/service-worker.js",
+    "static/css/2.41c6c5b7.chunk.css.map": "/iqvia/static/css/2.41c6c5b7.chunk.css.map",
+    "static/css/main.cf629934.chunk.css.map": "/iqvia/static/css/main.cf629934.chunk.css.map",
+    "static/media/apollo-logo-gray.svg": "/iqvia/static/media/apollo-logo-gray.8c8666d9.svg",
+    "static/media/logo-img.png": "/iqvia/static/media/logo-img.834a884a.png",
+    "static/media/font.css": "/iqvia/static/media/proxima_nova_thin_it-webfont.ec501c52.ttf"
+  }
+}
