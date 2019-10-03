@@ -1,0 +1,95 @@
+
+const reports = [
+  {
+    Title: 'To Kill a Mockingbird',
+    Author: 'Haper Lee',
+    Date: 1960,
+    Description: 'Atticus Finch in the racist south',
+    Summary: 'The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it, To Kill A Mockingbird became both an instant bestseller and a critical success when it was first published in 1960. It went on to win the Pulitzer Prize in 1961 and was later made into an Academy Award-winning film, also a classic. Compassionate, dramatic, and deeply moving, To Kill A Mockingbird takes readers to the roots of human behavior - to innocence and experience, kindness and cruelty, love and hatred, humor and pathos. Now with over 18 million copies in print and translated into forty languages, this regional story by a young Alabama woman claims universal appeal. Harper Lee always considered her book to be a simple love story. Today it is regarded as a masterpiece of American literature.',
+    Image:'https://upload.wikimedia.org/wikipedia/commons/c/ce/Atticus_and_Tom_Robinson_in_court.gif',
+  },
+  {
+    Title: 'The Great Gatsby',
+    Author: 'F. Scott Fitzgerald',
+    Date: 1926,
+    Description: 'Oppulence in the roaring 20s',
+    Summary: "THE GREAT GATSBY, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted 'gin was the national drink and sex the national obsession,' it is an exquisitely crafted tale of America in the 1920s. The Great Gatsby is one of the great classics of twentieth-century literature.", 
+    Image:'https://www.indiewire.com/wp-content/uploads/2016/08/20140216-131646.jpg?w=780',
+  },
+  {
+    Title: 'Romeo and Juliet',
+    Author: 'William Shakespeare',
+    Date: 1595,
+    Description: 'Star-crossed lovers commit suicide.',
+    Summary:'In Romeo and Juliet, Shakespeare creates a violent world, in which two young people fall in love. It is not simply that their families disapprove; the Montagues and the Capulets are engaged in a blood feud.    In this death-filled setting, the movement from love at first sight to the lovers’ final union in death seems almost inevitable. And yet, this play set in an extraordinary world has become the quintessential story of young love. In part because of its exquisite language, it is easy to respond as if it were about all young lovers.',
+    Image:'https://img.huffingtonpost.com/asset/5d0391cc210000dc18f33e5b.jpeg?ops=scalefit_630_noupscale',
+  },
+  {
+    Title: 'Lord of the Flies',
+    Author: 'William Golding',
+    Date: 1954,
+    Description: 'Shipwrecked boys turn savage',
+    Summary: 'At the dawn of the next world war, a plane crashes on an uncharted island, stranding a group of schoolboys. At first, with no adult supervision, their freedom is something to celebrate; this far from civilization the boys can do anything they want. Anything. They attempt to forge their own society, failing, however, in the face of terror, sin and evil. And as order collapses, as strange howls echo in the night, as terror begins its reign, the hope of adventure seems as far from reality as the hope of being rescued. Labeled a parable, an allegory, a myth, a morality tale, a parody, a political treatise, even a vision of the apocalypse, Lord of the Flies is perhaps our most memorable novel about “the end of innocence, the darkness of man’s heart.',
+    Image:'http://media.breitbart.com/media/2017/08/LordBrightened-640x480.jpg',
+  },
+  {
+    Title: 'Of Mice and Men',
+    Author: 'John Steinbeck',
+    Date: 1937,
+    Description: 'George takes care of Lennie. Lennie kills a rabbit.',
+    Summary:'The compelling story of two outsiders striving to find their place in an unforgiving world. Drifters in search of work, George and his simple-minded friend Lennie have nothing in the world except each other and a dream--a dream that one day they will have some land of their own. Eventually they find work on a ranch in California’s Salinas Valley, but their hopes are doomed as Lennie, struggling against extreme cruelty, misunderstanding and feelings of jealousy, becomes a victim of his own strength. Tackling universal themes such as the friendship of a shared vision, and giving voice to America’s lonely and dispossessed, Of Mice and Men has proved one of Steinbeck’s most popular works, achieving success as a novel, a Broadway play and three acclaimed films.',
+    Image:'https://perseengage.files.wordpress.com/2015/11/of-mice-and-men.jpg',
+  },
+  {
+    Title: 'Hamlet',
+    Author: 'William Shakespeare',
+    Date: 1603,
+    Description: 'Like the Lion King... but with people',
+    Summary: "Among Shakespeare's plays, 'Hamlet' is considered by many his masterpiece. Among actors, the role of Hamlet, Prince of Denmark, is considered the jewel in the crown of a triumphant theatrical career. Now Kenneth Branagh plays the leading role and co-directs a brillant ensemble performance. Three generations of legendary leading actors, many of whom first assembled for the Oscar-winning film 'Henry V', gather here to perform the rarely heard complete version of the play. This clear, subtly nuanced, stunning dramatization, presented by The Renaissance Theatre Company in association with 'BBC' Broadcasting, features such luminaries as Sir John Gielgud, Derek Jacobi, Emma Thompson and Christopher Ravenscroft. It combines a full cast with stirring music and sound effects to bring this magnificent Shakespearen classic vividly to life. Revealing new riches with each listening, this production of 'Hamlet' is an invaluable aid for students, teachers and all true lovers of Shakespeare - a recording to be treasured for decades to come.",
+    Image:'https://www.samaa.tv/wp-content/uploads/2019/03/ahad-raza-640x427.jpg',
+  },
+  {
+    Title: 'The Scarlet Letter',
+    Author: 'Nathanliel Hawthorne',
+    Date: 1850,
+    Description: 'A is for Adultery',
+    Summary: "In Nathaniel Hawthorne's dark novel, The Scarlet Letter, a single sinful act ruins the lives of three people. None more so than Hester Prynne, a young, beautiful, and dignified woman, who conceived a child out of wedlock and receives the public punishment of having to always wear a scarlet 'A' on her clothing. She refuses to reveal the father of her child, which could lighten her sentence. Her husband, the aptly-named Roger Chillingworth, who Hester thought had died in a shipwreck but was actually being held captive by Native Americans, arrives at the exact moment of her deepest public shaming and vows to get revenge. Her lover, Arthur Dimmesdale, remains safely unidentified, but is wracked with guilt.",
+    Image:'http://ehia.info/wp-content/uploads/2019/02/the-scarlet-letter-1995-the-scarlet-letter-1995ganzer-film-onlinehd-deutsch-templates.jpg',
+  },
+  {
+    Title: 'The Catcher in the Rye',
+    Author: 'J. D. Sallinger',
+    Date: 1951,
+    Description: 'Holden Caufield is a dumb teenager',
+    Summary: "The hero-narrator of The Catcher in the Rye is an ancient child of sixteen, a native New Yorker named Holden Caulfield. Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days. The boy himself is at once too simple and too complex for us to make any final comment about him or his story. Perhaps the safest thing we can say about Holden is that he was born in the world not just strongly attracted to beauty but, almost, hopelessly impaled on it. There are many voices in this novel: children's voices, adult voices, underground voices-but Holden's voice is the most eloquent of all. Transcending his own vernacular, yet remaining marvelously faithful to it, he issues a perfectly articulated cry of mixed pain and pleasure. However, like most lovers and clowns and poets of the higher orders, he keeps most of the pain to, and for, himself. The pleasure he gives away, or sets aside, with all his heart. It is there for the reader who can handle it to keep.",
+    Image:'https://www.booksinc.net/sites/booksinc.net/files/Catcher-in-the-Rye-Marathon-Reading.png',
+  },
+  {
+    Title: 'Animal Farm',
+    Author: 'George Orwell',
+    Date: 1945,
+    Description: 'Talking animals and communism',
+    Summary: "A farm is taken over by its overworked, mistreated animals. With flaming idealism and stirring slogans, they set out to create a paradise of progress, justice, and equality. Thus the stage is set for one of the most telling satiric fables ever penned –a razor-edged fairy tale for grown-ups that records the evolution from revolution against tyranny to a totalitarianism just as terrible. When Animal Farm was first published, Stalinist Russia was seen as its target. Today it is devastatingly clear that wherever and whenever freedom is attacked, under whatever banner, the cutting clarity and savage comedy of George Orwell’s masterpiece have a meaning and message still ferociously fresh.",
+    Image:'https://www.telegraph.co.uk/content/dam/books/2015-08/11aug/Animalfarm_3096015a.jpg',
+  },
+  {
+    Title: 'Fahrenheit 451',
+    Author: 'Ray Bradbury',
+    Date: 1953,
+    Description: 'Lets burn all the books',
+    Summary: "Guy Montag is a fireman. In his world, where television rules and literature is on the brink of extinction, firemen start fires rather than put them out. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television 'family'. But then he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people did not live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television. When Mildred attempts suicide and Clarisse suddenly disappears, Montag begins to question everything he has ever known.",
+    Image:'https://filmgoblin.com/wp-content/uploads/2018/02/F451.jpg',
+  },
+  {
+    Title: 'The Odyssey',
+    Author: 'Homer',
+    Date: 700,
+    Description: 'Odyssius takes the long way home',
+    Summary: "If the Iliad is the world's greatest war epic, then the Odyssey is literature's grandest evocation of everyman's journey though life. Odysseus' reliance on his wit and wiliness for survival in his encounters with divine and natural forces, during his ten-year voyage home to Ithaca after the Trojan War, is at once a timeless human story and an individual test of moral endurance. In the myths and legends that are retold here, Fagles has captured the energy and poetry of Homer's original in a bold, contemporary idiom, and given us an Odyssey to read aloud, to savor, and to treasure for its sheer lyrical mastery.",
+    Image:'https://s26162.pcdn.co/wp-content/uploads/2018/03/The-Odyssey.jpg',
+  },
+  
+   
+];
+
+export default reports;
